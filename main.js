@@ -1,3 +1,10 @@
-var a = 5;
+var ValorUm = 5;
+var ValorDois = 11;
 
-console.log(a);
+function soma(a, b) {
+    let c = a + b;
+    return (c);
+}
+
+
+console.log(soma(ValorUm, ValorDois));
