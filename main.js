@@ -1,9 +1,12 @@
-var idade = 18;
-var idadeDois = 20;
+const formulario = document.getElementById("calcForm");
 
-function somar(a,b){
-    let c = a+b;
-    return c;
-}
+formulario.addEventListener("submit", function (e){
+    e.preventDefault();
 
-console.log(somar(idade, idadeDois));
+    const a = Number(document.getElementById("num1").value);
+    const b = Number(document.getElementById("num2").value);
+
+    const soma = a+b;
+
+    document.getElementById("resultado").textContent = soma;
+});
