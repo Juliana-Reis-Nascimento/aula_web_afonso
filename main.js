@@ -1,3 +1,4 @@
+//Aluno: Juliana Reis Nascimento RGM: 26110798//
 const formulario = document.getElementById("calcForm");
 
 formulario.addEventListener("submit", function (e){
